@@ -10,7 +10,7 @@ There are 2 scripts here, the `zpool-status.py` script will send all notificatio
 4. Use that venv Python to run the scripts: `./bin/python zpool-status.py` -or- `./bin/python zpool-monitor-hourly.py`
 5. Set either or both scripts to rin on a schedule: (first one is hourly, second is daily at 8:oopm)
 ```
-0 * * * * /home/cmiller/projects/zpool-status/bin/python /home/cmiller/projects/zpool-status/zpool-monitor-hourly.py
-0 20 * * * /home/cmiller/projects/zpool-status/bin/python /home/cmiller/projects/zpool-status/zpool-status.py
+0 * * * * /home/user/path/to/your/venv/zpool-monitor/bin/python /home/user/path/to/your/venv/zpool-monitor/zpool-monitor-hourly.py
+0 20 * * * /home/user/path/to/your/venv/zpool-monitor/bin/python /home/user/path/to/your/venv/zpool-monitor/zpool-status.py
 ```
 6. Profit!
